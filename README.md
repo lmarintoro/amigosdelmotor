@@ -1,88 +1,39 @@
-# Heroku Buildpack for Node.js
+# node-js-getting-started
 
-![nodejs](https://cloud.githubusercontent.com/assets/51578/13712672/efdf2a40-e792-11e5-82ef-492478cbc0dc.png)
+A barebones Node.js app using [Express 4](http://expressjs.com/).
 
-This is the official [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) for Node.js apps.
+This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
 
-[![Build Status](https://travis-ci.org/heroku/heroku-buildpack-nodejs.svg)](https://travis-ci.org/heroku/heroku-buildpack-nodejs)
+## Running Locally
+
+Make sure you have [Node.js](http://nodejs.org/) and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+
+```sh
+$ git clone git@github.com:heroku/node-js-getting-started.git # or clone your own fork
+$ cd node-js-getting-started
+$ npm install
+$ npm start
+```
+
+Your app should now be running on [localhost:5000](http://localhost:5000/).
+
+## Deploying to Heroku
+
+```
+$ heroku create
+$ git push heroku master
+$ heroku open
+```
+or
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ## Documentation
 
-For more information about using this Node.js buildpack on Heroku, see these Dev Center articles:
+For more information about using Node.js on Heroku, see these Dev Center articles:
 
+- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs)
 - [Heroku Node.js Support](https://devcenter.heroku.com/articles/nodejs-support)
-- [Getting Started with Node.js on Heroku](https://devcenter.heroku.com/articles/nodejs)
-
-For more general information about buildpacks on Heroku:
-
-- [Buildpacks](https://devcenter.heroku.com/articles/buildpacks)
-- [Buildpack API](https://devcenter.heroku.com/articles/buildpack-api)
-
-## Locking to a buildpack version
-
-In production, you frequently want to lock all of your dependencies - including
-buildpacks - to a specific version. That way, you can regularly update and
-test them, upgrading with confidence.
-
-First, find the version you want from
-[the list of buildpack versions](https://github.com/heroku/heroku-buildpack-nodejs/releases).
-Then, specify that version with `buildpacks:set`:
-
-```
-heroku buildpacks:set https://github.com/heroku/heroku-buildpack-nodejs#v83 -a my-app
-```
-
-If you have trouble upgrading to the latest version of the buildpack, please
-open a support ticket at [help.heroku.com](https://help.heroku.com/) so we can assist.
-
-### Chain Node with multiple buildpacks
-
-This buildpack automatically exports node, npm, and any node_modules binaries
-into the `$PATH` for easy use in subsequent buildpacks.
-
-## Feedback
-
-Having trouble? Dig it? Feature request?
-
-- [help.heroku.com](https://help.heroku.com/)
-- [@hunterloftis](http://twitter.com/hunterloftis)
-- [GitHub issues](https://github.com/heroku/heroku-buildpack-nodejs/issues)
-
-## Hacking
-
-To make changes to this buildpack, fork it on GitHub.
-Push up changes to your fork, then create a new Heroku app to test it,
-or configure an existing app to use your buildpack:
-
-```
-# Create a new Heroku app that uses your buildpack
-heroku create --buildpack <your-github-url>
-
-# Configure an existing Heroku app to use your buildpack
-heroku buildpacks:set <your-github-url>
-
-# You can also use a git branch!
-heroku buildpacks:set <your-github-url>#your-branch
-```
-
-## Tests
-
-The buildpack tests use [Docker](https://www.docker.com/) to simulate
-Heroku's Cedar and Cedar-14 containers.
-
-To run the test suite:
-
-```
-make test
-```
-
-Or to just test in cedar or cedar-14:
-
-```
-make test-cedar-10
-make test-cedar-14
-```
-
-The tests are run via the vendored
-[shunit2](http://shunit2.googlecode.com/svn/trunk/source/2.1/doc/shunit2.html)
-test framework.
+- [Node.js on Heroku](https://devcenter.heroku.com/categories/nodejs)
+- [Best Practices for Node.js Development](https://devcenter.heroku.com/articles/node-best-practices)
+- [Using WebSockets on Heroku with Node.js](https://devcenter.heroku.com/articles/node-websockets)
