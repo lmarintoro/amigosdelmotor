@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9949d680-6fb3-42ed-9c8f-f57fa4cf02d3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
     </list>
     <ignored path="torino.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,15 +26,26 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+            <state relative-caret-position="360">
+              <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
               <folding>
                 <element signature="e#359#367#0" expanded="true" />
                 <element signature="e#4571#4577#0" expanded="true" />
                 <element signature="e#4579#4585#0" expanded="true" />
                 <element signature="e#4767#4775#0" expanded="true" />
-                <element signature="e#22011#22086#0" expanded="false" />
+                <element signature="e#10881#10889#0" expanded="true" />
+                <element signature="e#22712#22787#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="278" column="14" selection-start-line="278" selection-start-column="14" selection-end-line="278" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -46,6 +58,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
@@ -110,6 +123,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="torino" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="torino" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -185,7 +216,8 @@
             <element signature="e#4571#4577#0" expanded="true" />
             <element signature="e#4579#4585#0" expanded="true" />
             <element signature="e#4767#4775#0" expanded="true" />
-            <element signature="e#22011#22086#0" expanded="false" />
+            <element signature="e#10881#10889#0" expanded="true" />
+            <element signature="e#22712#22787#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -199,7 +231,8 @@
             <element signature="e#4571#4577#0" expanded="true" />
             <element signature="e#4579#4585#0" expanded="true" />
             <element signature="e#4767#4775#0" expanded="true" />
-            <element signature="e#22011#22086#0" expanded="false" />
+            <element signature="e#10881#10889#0" expanded="true" />
+            <element signature="e#22712#22787#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -213,21 +246,31 @@
             <element signature="e#4571#4577#0" expanded="true" />
             <element signature="e#4579#4585#0" expanded="true" />
             <element signature="e#4767#4775#0" expanded="true" />
-            <element signature="e#22011#22086#0" expanded="false" />
+            <element signature="e#10881#10889#0" expanded="true" />
+            <element signature="e#22712#22787#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="278" column="14" selection-start-line="278" selection-start-column="14" selection-end-line="278" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="82" column="18" selection-start-line="82" selection-start-column="18" selection-end-line="82" selection-end-column="18" />
+        <state relative-caret-position="360">
+          <caret line="221" column="0" selection-start-line="221" selection-start-column="0" selection-end-line="221" selection-end-column="0" />
           <folding>
             <element signature="e#359#367#0" expanded="true" />
             <element signature="e#4571#4577#0" expanded="true" />
             <element signature="e#4579#4585#0" expanded="true" />
             <element signature="e#4767#4775#0" expanded="true" />
-            <element signature="e#22011#22086#0" expanded="false" />
+            <element signature="e#10881#10889#0" expanded="true" />
+            <element signature="e#22712#22787#0" expanded="false" />
           </folding>
         </state>
       </provider>
