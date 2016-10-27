@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9949d680-6fb3-42ed-9c8f-f57fa4cf02d3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/client/01.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/client/02.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/client/03.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/client/04.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/client/05.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/client/06.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/client/07.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/client/_DS_Store" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/07.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/portfolio/08.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/team/berta.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/team/carlos_paz.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/team/kempes.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/team/parque.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/img/team/renault.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/img/old03.jpg" afterPath="$PROJECT_DIR$/public/img/05.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-    </list>
+    <list default="true" id="9949d680-6fb3-42ed-9c8f-f57fa4cf02d3" name="Default" comment="" />
     <ignored path="torino.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
